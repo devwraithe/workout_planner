@@ -45,20 +45,6 @@ def save_workout_plan(workout_plan):
         print(f"An error occurred while saving the workout plan: {e}")
 
 
-# Load workout plan from a file
-def load_workout_plan():
-    try:
-        with open("workout_plan.json", "r") as file:
-            workout_plan = json.load(file)
-            return workout_plan
-    except FileNotFoundError:
-        print("No saved workout plan found.")
-        return None
-    except Exception as e:
-        print(f"An error occurred while loading the workout plan: {e}")
-        return None
-
-
 def display_workout_plan(workout_plan):
     print("\nYour Workout Plan Is Ready:")
 

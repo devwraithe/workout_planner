@@ -7,10 +7,80 @@
       "rest": 60
     },
     {
+      "name": "Bulgarian Split Squat",
+      "sets": 3,
+      "reps": 8,
+      "rest": 90
+    },
+    {
       "name": "Dips",
       "sets": 3,
       "reps": 8,
       "rest": 60
+    },
+    {
+      "name": "Squat",
+      "sets": 3,
+      "reps": 8,
+      "rest": 90
+    },
+    {
+      "name": "Step-ups",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    },
+    {
+      "name": "Barbell Bench Press",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    }
+  ],
+  [
+    {
+      "name": "Bulgarian Split Squat",
+      "sets": 3,
+      "reps": 8,
+      "rest": 90
+    },
+    {
+      "name": "Dips",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    },
+    {
+      "name": "Squat",
+      "sets": 3,
+      "reps": 8,
+      "rest": 90
+    },
+    {
+      "name": "Step-ups",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    },
+    {
+      "name": "Barbell Bench Press",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    }
+  ],
+  [
+    {
+      "name": "Dips",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    },
+    {
+      "name": "Squat",
+      "sets": 3,
+      "reps": 8,
+      "rest": 90
     },
     {
       "name": "Step-ups",
@@ -38,6 +108,126 @@
     },
     {
       "name": "Push-ups",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    }
+  ],
+  [
+    {
+      "name": "Squat",
+      "sets": 3,
+      "reps": 8,
+      "rest": 90
+    },
+    {
+      "name": "Step-ups",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    },
+    {
+      "name": "Barbell Bench Press",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    },
+    {
+      "name": "Lunges",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    },
+    {
+      "name": "Leg Press",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    },
+    {
+      "name": "Push-ups",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    },
+    {
+      "name": "Hammer Curl",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    }
+  ],
+  [
+    {
+      "name": "Step-ups",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    },
+    {
+      "name": "Barbell Bench Press",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    },
+    {
+      "name": "Lunges",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    },
+    {
+      "name": "Leg Press",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    },
+    {
+      "name": "Push-ups",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    },
+    {
+      "name": "Hammer Curl",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    }
+  ],
+  [
+    {
+      "name": "Barbell Bench Press",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    },
+    {
+      "name": "Lunges",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    },
+    {
+      "name": "Leg Press",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    },
+    {
+      "name": "Push-ups",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    },
+    {
+      "name": "Hammer Curl",
+      "sets": 3,
+      "reps": 8,
+      "rest": 60
+    },
+    {
+      "name": "Incline Dumbbell Press",
       "sets": 3,
       "reps": 8,
       "rest": 60
