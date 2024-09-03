@@ -1,3 +1,4 @@
+import json
 import random
 
 from src.modules.exercises_generation import generate_exercises
@@ -11,7 +12,7 @@ def generate_workout_plan(current_fitness, weekly_availability, user_goals, exer
 
     for _ in range(weekly_availability):
         daily_workout = []
-        for exercise in suitable_exercises[:random.randint(3, 5)]:
+        for exercise in suitable_exercises[:random.randint(5, 8)]:
             if 1 in user_goals:  # Build muscle
                 sets = 3
                 reps = 8
@@ -35,10 +36,39 @@ def generate_workout_plan(current_fitness, weekly_availability, user_goals, exer
     return workout_plan
 
 
+# Save workout plan to a file
+def save_workout_plan(workout_plan):
+    try:
+        with open("workout_plan.json", "w") as file:
+            json.dump(workout_plan, file, indent=2, ensure_ascii=False)
+    except Exception as e:
+        print(f"An error occurred while saving the workout plan: {e}")
+
+
+# Load workout plan from a file
+def load_workout_plan():
+    try:
+        with open("workout_plan.json", "r") as file:
+            workout_plan = json.load(file)
+            return workout_plan
+    except FileNotFoundError:
+        print("No saved workout plan found.")
+        return None
+    except Exception as e:
+        print(f"An error occurred while loading the workout plan: {e}")
+        return None
+
+
 def display_workout_plan(workout_plan):
     print("\nYour Workout Plan Is Ready:")
+
+    workout_routine = []
+
     for day, exercises in enumerate(workout_plan, start=1):
+        workout_routine.append(exercises)
         print(f"\nDay {day}:")
         for exercise in exercises:
             print(
                 f"- {exercise['name']}: {exercise['sets']} sets, {exercise['reps']} reps, {exercise['rest']}s rest")
+
+    save_workout_plan(workout_routine)
